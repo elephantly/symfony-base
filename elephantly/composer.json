@@ -21,7 +21,10 @@
     },
     "require-dev": {
         "sensio/generator-bundle": "~2.3",
-        "symfony/phpunit-bridge": "~2.7"
+        "symfony/phpunit-bridge": "~2.7",
+        "kriswallsmith/buzz":"dev-master",
+        "phpdocumentor/phpdocumentor": "2.*",
+        "kahlan/kahlan": "~3.0"
     },
     "scripts": {
         "symfony-scripts": [
