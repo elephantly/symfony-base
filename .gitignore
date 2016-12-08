@@ -1,48 +1,51 @@
 # Cache and logs (Symfony2)
-/app/cache/*
-/app/logs/*
-!app/cache/.gitkeep
-!app/logs/.gitkeep
+/elephantly/app/cache/*
+/elephantly/app/logs/*
+!/elephantly/app/cache/.gitkeep
+!/elephantly/app/logs/.gitkeep
 
 # Email spool folder
-/app/spool/*
+/elephantly/app/spool/*
 
 # Cache, session files and logs (Symfony3)
-/var/cache/*
-/var/logs/*
-/var/sessions/*
-!var/cache/.gitkeep
-!var/logs/.gitkeep
-!var/sessions/.gitkeep
+/elephantly/var/cache/*
+/elephantly/var/logs/*
+/elephantly/var/sessions/*
+/elephantly!var/cache/.gitkeep
+!/elephantly/var/logs/.gitkeep
+!/elephantly/var/sessions/.gitkeep
 
 # Parameters
-/app/config/parameters.yml
-/app/config/parameters.ini
+/elephantly/app/config/parameters.yml
+/elephantly/app/config/parameters.ini
 
 # Managed by Composer
-/app/bootstrap.php.cache
-/var/bootstrap.php.cache
-/bin/*
-!bin/console
-!bin/symfony_requirements
-/vendor/
+/elephantly/app/bootstrap.php.cache
+/elephantly/var/bootstrap.php.cache
+/elephantly/bin/*
+!/elephantly/bin/console
+!/elephantly/bin/symfony_requirements
+/elephantly/vendor/
 
 # Assets and user uploads
-/web/bundles/
-/web/uploads/
+/elephantly/web/bundles/
+/elephantly/web/uploads/
 
 # Assets managed by Bower
-/web/assets/vendor/
+/elephantly/web/assets/vendor/
 
 # PHPUnit
-/app/phpunit.xml
-/phpunit.xml
+/elephantly/app/phpunit.xml
+/elephantly/phpunit.xml
 
 # Build data
-/build/
+/elephantly/build/
 
 # Composer PHAR
-/composer.phar
+/elephantly/composer.phar
 
 # Backup entities generated with doctrine:generate:entities command
 */Entity/*~
+
+# Project folder (other git repo)
+/elephantly/src/Elphtly/
