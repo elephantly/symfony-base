@@ -45,7 +45,7 @@
 /elephantly/composer.phar
 
 # Backup entities generated with doctrine:generate:entities command
-*/Entity/*~
+/elephantly/src/*/Entity/*~
 
 # Project folder (other git repo)
 /elephantly/src/Elphtly/
