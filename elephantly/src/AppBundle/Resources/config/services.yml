@@ -1,0 +1,7 @@
+services:
+    app.random_service:
+        class: AppBundle\Services\RandomService
+
+    app.useless_service:
+        class: AppBundle\Services\UselessService
+        arguments: [ '@app.random_service' ]

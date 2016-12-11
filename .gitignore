@@ -49,3 +49,4 @@
 
 # Project folder (other git repo)
 /elephantly/src/Elphtly/
+!/elephantly/src/AppBundle/
